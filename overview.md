@@ -1,24 +1,27 @@
 # SourceCred
 
 SourceCred is anchored by a simple goal: we want open-source contributors to
-earn a living from their work. At first, we focused on the obvious problem:
-where will the money come from? We were inspired by the ability of
-cryptocurrencies to fund open-source projects, and started [SourceGrain], with
-the goal of letting every open-source project issue its own token.
+earn a living, and a share in the value created on top of their contributions.
+At first, we focused on the obvious problem: where will the money come from? We
+were inspired by the ability of cryptocurrencies to fund open-source projects,
+and started [SourceGrain], with the goal of letting every open-source project
+issue its own token.
 
-However, as we evolved this idea, we ran into a big problem: we don't know who
+However, as this idea evolved, we ran into a big problem: we don't know who
 deserves credit in an open-source project, and thus we don't know how to
 distribute the rewards. The obvious approaches, like counting commits or lines
 of code, would be far too easy to game—and would in any case miss out on vital
-work like design, or issue triaging.
+work like design or issue triaging.
 
-This affects every method for funding open-source. Whether the funds come from
-crypto airdrops, sponsorships, donations, or [anywhere else], projects need a
-fair system for deciding how to distribute them. SourceCred is designed to do
-just that.
+This inability to quantify contributions accurately affects every method for
+funding open-source. Projects need a fair system for deciding how to distribute
+rewards regardless of whether they come through sponsorships, donations,
+[cryptocurrency airdrops], or through any [other means]. SourceCred is designed
+to do just that.
 
 [SourceGrain]: https://github.com/sourcegrain/mission/blob/master/README.md
-[anywhere else]: https://github.com/nayafia/lemonade-stand
+[cryptocurrency airdrops]: https://en.wikipedia.org/wiki/Airdrop_(cryptocurrency)
+[other means]: https://github.com/nayafia/lemonade-stand
 
 ## Overview
 
@@ -67,9 +70,9 @@ commits. There isn't yet much data distinguishing pulls or commits from each
 other, so whichever ones get more discussion often to have the highest scores.
 
 The next big frontier for improving cred quality is adding source-code
-analysis, by integrating files and then functions into the contribution graph.
-We also plan to add "time-based cred", to answer questions like "who made the
-most valuable contributions this month?"
+analysis. We'll do this by adding files and functions into the contribution
+graph. We also plan to add "time-based cred", to answer questions like "who
+made the most valuable contributions this month?"
 
 ## Getting Involved
 

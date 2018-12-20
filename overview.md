@@ -11,13 +11,15 @@ However, as this idea evolved, we ran into a big problem: we don't know who
 deserves credit in an open-source project, and thus we don't know how to
 distribute the rewards. The obvious approaches, like counting commits or lines
 of code, would be far too easy to game—and would in any case miss out on vital
-work like design or issue triaging.
+work like design or issue triaging, not to mention that it would miss out on the
+underlying quality of the commits or code.
 
 This inability to quantify contributions accurately affects every method for
 funding open-source. Projects need a fair system for deciding how to distribute
 rewards regardless of whether they come through sponsorships, donations,
 [cryptocurrency airdrops], or through any [other means]. SourceCred is designed
-to do just that.
+to do just that and we hope it will be used downstream by many to measure the
+value derived from and thereafter fund open-source contributors' work.
 
 [SourceGrain]: https://github.com/sourcegrain/mission/blob/master/README.md
 [cryptocurrency airdrops]: https://en.wikipedia.org/wiki/Airdrop_(cryptocurrency)
@@ -142,7 +144,8 @@ people are gaming.
 Second, since SourceCred is itself open-source, anyone can propose new heuristics to
 mitigate gaming. For example, the community could develop a machine learning model
 to distinguish between threads that are constructive and threads that are flame wars,
-and then greatly reduce the weight on the flame wars.
+and then greatly reduce the weight on the flame wars or likewise generally adapt
+SourceCred to their project's specific needs.
 
 ### Is SourceCred open-source?
 
@@ -158,4 +161,7 @@ SourceCred is being developed with funding and support from [Protocol Labs].
 
 You can think of SourceCred as the "IPFS" to SourceGrain's "Filecoin".
 SourceCred is building a protocol for credit attribution independent of
-economic incentives, and SourceGrain will add an incentive layer on top.
+economic incentives, and SourceGrain will add an incentive layer on top
+using SourceCred. They can nonetheless exist independently from one
+another, for instance with SourceCred being used for other purposes,
+or SourceGrain being used atop another credit attribution system.

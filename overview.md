@@ -62,14 +62,14 @@ that just say "me too".
 
 ## Current Status
 
-SourceCred is currently in a early beta stage, with much of the core
+SourceCred is currently in an early beta stage, with much of the core
 infrastructure in place, and a functioning prototype. Anecdotally, SourceCred
 seems to do a good job of assigning cred to the major contributors of GitHub
 projects; we've shown contributors' cred totals to the maintainers of several
 projects, and the feedback has been quite positive. However, SourceCred doesn't
 yet do a great job of assigning cred to individual pull requests, issues, or
 commits. There isn't yet much data distinguishing pulls or commits from each
-other, so whichever ones get more discussion often to have the highest scores.
+other, so whichever ones get more discussion often get to have the highest scores.
 
 The next big frontier for improving cred quality is adding source-code
 analysis. We'll do this by adding files and functions into the contribution

@@ -10,8 +10,10 @@ issue its own token.
 However, as this idea evolved, we ran into a big problem: we don't know who
 deserves credit in an open-source project, and thus we don't know how to
 distribute the rewards. The obvious approaches, like counting commits or lines
-of code, would be far too easy to game—and would in any case miss out on vital
-work like design or issue triaging.
+of code, would be far too easy to game and would miss out on key aspects
+of a commit like code quality.
+Further, such approaches would miss out on key work like design feedback or
+issue triaging.
 
 This inability to quantify contributions accurately affects every method for
 funding open-source. Projects need a fair system for deciding how to distribute
@@ -60,14 +62,14 @@ that just say "me too".
 
 ## Current Status
 
-SourceCred is currently in a early beta stage, with much of the core
+SourceCred is currently in an early beta stage, with much of the core
 infrastructure in place, and a functioning prototype. Anecdotally, SourceCred
 seems to do a good job of assigning cred to the major contributors of GitHub
 projects; we've shown contributors' cred totals to the maintainers of several
 projects, and the feedback has been quite positive. However, SourceCred doesn't
 yet do a great job of assigning cred to individual pull requests, issues, or
 commits. There isn't yet much data distinguishing pulls or commits from each
-other, so whichever ones get more discussion often to have the highest scores.
+other, so whichever ones get more discussion often get the highest scores.
 
 The next big frontier for improving cred quality is adding source-code
 analysis. We'll do this by adding files and functions into the contribution
@@ -141,8 +143,8 @@ people are gaming.
 
 Second, since SourceCred is itself open-source, anyone can propose new heuristics to
 mitigate gaming. For example, the community could develop a machine learning model
-to distinguish between threads that are constructive and threads that are flame wars,
-and then greatly reduce the weight on the flame wars.
+to distinguish between threads that are constructive and threads that are flame wars or
+more generally adapting SourceCred to their project's specific needs.
 
 ### Is SourceCred open-source?
 
@@ -158,4 +160,7 @@ SourceCred is being developed with funding and support from [Protocol Labs].
 
 You can think of SourceCred as the "IPFS" to SourceGrain's "Filecoin".
 SourceCred is building a protocol for credit attribution independent of
-economic incentives, and SourceGrain will add an incentive layer on top.
+economic incentives, and SourceGrain will add an incentive layer on top
+using SourceCred. They can nonetheless exist independently from one
+another, for instance with SourceCred being used for other purposes,
+or SourceGrain being used atop another credit attribution system.

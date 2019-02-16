@@ -1,4 +1,4 @@
-# SourceCred Mission Tracking
+# SourceCred Project Management
 
 SourceCred is an open-source credit attribution system. SourceCred analyzes
 projects and assigns *cred* to each contributor, based on the value of their

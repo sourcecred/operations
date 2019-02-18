@@ -1,4 +1,4 @@
-* Recording: [Link](https://www.youtube.com/watch?v=3NgANZNdSlo)
+* Recording: [Link](https://www.youtube.com/watch?v=7YuKPBLQeSI)
 * Attendees: @decentralion, @wchargin, @BrianLitwin, @wpank
 
 #### Contents

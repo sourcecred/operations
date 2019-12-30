@@ -1,5 +1,7 @@
 # SourceCred Project Management
 
+## Note: This repo is archived. You should check out the [SourceCred Discourse](discourse.sourcecred.io/) instead.
+
 SourceCred is an open-source credit attribution system. SourceCred analyzes
 projects and assigns *cred* to each contributor, based on the value of their
 contributions. You can read more about the vision on [our website], and you can

@@ -1,23 +1,35 @@
-# SourceCred Project Management
+# SourceCred Operations
 
-## Note: This repo is archived. You should check out the [SourceCred Discourse](discourse.sourcecred.io/) instead.
+This repository is used for overall project operations for [SourceCred][website].
+That includes, but is not limited to:
 
-SourceCred is an open-source credit attribution system. SourceCred analyzes
-projects and assigns *cred* to each contributor, based on the value of their
-contributions. You can read more about the vision on [our website], and you can
-see our codebase in [sourcecred/sourcecred].
+- General purpose operations
+- Design files, resources, supportive material
+- Project management
+- Art and other creative contributions
 
-[our website]: https://sourcecred.io
+SourceCred is a tool for communities to measure and reward value creation. Learn
+more on our [website], and explore our main GitHub repository at [sourcecred/sourcecred].
+
+[website]: https://sourcecred.io
 [sourcecred/sourcecred]: https://github.com/sourcecred/sourcecred
 
-This repository is used for overall project management for SourceCred.
-We'll use the [issues] to track things like key features we need to implement,
-or milestones and objectives for the project as a whole.
+## How we use this repository
 
-[issues]: https://github.com/sourcecred/mission/issues
+We use the [issues] system to track issues and tasks that don’t fit in the code
+and/or website repositories within the project. Project tracking is done at the
+organization-wide level, see: [sourcecred/projects]
 
-If you have any questions, or just want to say "hi", please come by by [our
+[issues]: https://github.com/sourcecred/operations/issues
+[sourcecred/projects]: https://github.com/orgs/sourcecred/projects
+
+
+If you have any questions, or just want to say “hi!” please come by by [our
 Discord instance].
 
 [our Discord instance]: https://sourcecred.io/discord-invite
 
+---
+## Legacy notice
+
+This repository was previously called `pm`. It was unarchived and turned into `operations`. Legacy content can be found in the git history.

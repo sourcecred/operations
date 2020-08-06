@@ -6,7 +6,7 @@ That includes, but is not limited to:
 - [General purpose operations](#general-use)
 - [Design files, resources, supportive material](#design)
 - [Project management](#project-management)
-- [Art and other creative contributions](#art-creative)
+- [Art and other creative contributions](#art--creative)
 
 SourceCred is a tool for communities to measure and reward value creation. Learn
 more on our [website], and explore our main repository at [sourcecred/sourcecred].

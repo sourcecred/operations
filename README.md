@@ -27,7 +27,7 @@ organization-wide level, see: [sourcecred/projects]
 If you have any questions, or just want to say “hi!” please come by by [our
 Discord instance].
 
-[our Discord instance]: https://sourcecred.io/discord-invite
+[our Discord instance]: https://sourcecred.io/discord
 
 ---
 ## Legacy notice

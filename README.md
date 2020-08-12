@@ -70,9 +70,9 @@ or [@sourcecred/template-instance].
 [@sourcecred/docs]: https://github.com/sourcecred/docs
 [@sourcecred/template-instance]: https://github.com/sourcecred/template-instance
 
-Current to do item:
+See open tasks on our [Issues page].
 
-- [ ] [#30](https://github.com/sourcecred/operations/issues/30): Create an introduction for how to use GitHub issues & org Projects
+[Issues page]: https://github.com/sourcecred/operations/issues
 
 
 ## Art / Creative

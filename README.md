@@ -27,7 +27,7 @@ is done at the organization-wide level; see: [sourcecred/projects]
 [issues]: https://github.com/sourcecred/operations/issues
 [sourcecred/projects]: https://github.com/orgs/sourcecred/projects
 
-For a more instructive guide on how we do things, see the [SourceCred Operations Manual](/sourcecred/operations/wiki/SourceCred-Operations-Manual).
+For a more instructive guide on how we do things, see the [SourceCred Operations Manual](https://github.com/sourcecred/operations/wiki/SourceCred-Operations-Manual).
 
 
 ## Design
